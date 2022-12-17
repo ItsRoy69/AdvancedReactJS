@@ -1,7 +1,7 @@
 import { UserProvider, useUser } from "./UserContext"
 
 const LoggedInUser = () => {
-  const {user} = useUser();
+  const { user } = useUser();
   return (
     <p>
       Hello <span className="Username">{user.name}</span>
@@ -19,7 +19,7 @@ const Header = () => {
 };
 
 const Page = () => {
-  const {user} = useUser();
+  const { user } = useUser();
   return (
     <div>
       <h2>What is Lorem ipsum?</h2>
